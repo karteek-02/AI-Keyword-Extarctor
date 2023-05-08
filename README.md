@@ -9,16 +9,16 @@ Install Dependencies:
 
 `npm install`
 
-Rename `.env.example` to `.env` and add your API key. You can get your API key at <a href ="https://platform.openai.com/account/api-keys.">Open-AI</a>
+Create a `.env` file and add your API key. You can get your API key at <a href ="https://platform.openai.com/account/api-keys.">Open-AI</a>
 
-VITE_OPENAI_API_KEY='ADD_YOUR_KEY_HERE'
+`VITE_OPENAI_API_KEY='ADD_YOUR_KEY_HERE'`
 
 Run the server:
 
-npm run dev 
+`npm run dev `
 
 Open http://localhost:3000 with your browser to see the result.
 
 To build for production:
 
-npm run build
+`npm run build`
